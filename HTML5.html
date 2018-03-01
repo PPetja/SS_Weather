@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href= "CSS.css" rel= "stylesheet"  type= "text/css" >
+
+    <meta charset="UTF-8">
+    <title>Weather in Ukraine</title>
+</head>
+<body>
+    <div class="card text-center text bg-primary mb-3" style="max-width:100rem;">
+        <div class="card-header"><h2> <i>Wether in Ukraine</i> </h2></div>
+        <div class="card-body">
+            <h4 class="card-title">Weather in the city <span id="selectedcity"></span> </h4>
+            <p class="card-text"> <form>
+            <label for="cityname"> </label>
+            <input type="text" id="cityname" size="100" placeholder="Enter city name"/>
+            <input type="button" id="send" value="Send">
+        </form></p>
+        </div>
+    </div>
+    <div class="card text-white  bg-secondary mb-3" style="max-width: 100rem;">
+        <div class="text-center card-header"> Today </div>
+        <div class="card-body">
+            <li>clouds: <b><span id="clouddescr"></span></b></li>
+                <img id="cloudimg">
+            <li>temperature: <b><span id="temp"></span>, &#8451;</b></li>
+            <li>pressure: <b><span id="pressure"></span>, hPa</b></li>
+            <li>humidity: <b><span id="humidity"></span>, %</b></li>
+            <li>wind speed: <b><span id="windspeed"></span>, meter/sec</b></li>
+        </div>
+    </div>
+    <div class="card text-white  bg-secondary mb-3" style="max-width: 100rem;">
+        <div class="text-center card-header"> Every day </div>
+        <div class="card-body">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+        <script type="text/javascript" src="jquery-script.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
